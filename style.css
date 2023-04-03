@@ -1,0 +1,124 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.navbar-nav {
+  justify-content: space-between;
+  flex: 1;
+}
+
+.nav-link {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#social-links {
+  border-top: 0.5px solid rgb(231, 231, 231);
+  border-bottom: 0.5px solid rgb(231, 231, 231);
+  gap: 2em;
+  font-size: 18px;
+}
+
+.social-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.social-link:hover {
+  color: #72b8fb;
+}
+
+#header {
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+#header h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.blue-text {
+  color: #72b8fb;
+}
+
+#header button {
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+
+#contact-button {
+  background-color: #72b8fb;
+  color: white;
+}
+
+#header button:hover {
+  filter: brightness(85%);
+}
+
+#developer-img {
+  max-width: 100%;
+  width: 400px;
+  padding: 2em;
+}
+
+#what-i-do b {
+  font-weight: 600;
+}
+
+.what-i-do-item p{
+  font-size: 18px;
+}
+
+#my-projects {
+  background-color: rgb(35, 35, 35);
+}
+
+#my-projects button {
+  border: none;
+  padding: 0;
+}
+
+#my-projects a {
+  color: white;
+  text-decoration: none;
+}
+
+.card {
+  background-color: rgb(21, 21, 21);
+  color: white;
+}
+
+.certificate-footer {
+  font-size: 16px;
+}
+
+.certificate-footer a {
+  color: black;
+}
+
+#contact-me {
+  background-color: rgb(241, 249, 255);
+}
+
+
+footer {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+footer p {
+  margin-bottom: 0px;
+  font-size: 16px;
+}
